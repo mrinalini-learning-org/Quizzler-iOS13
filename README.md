@@ -3,6 +3,14 @@
 
 #  Quizzler
 
+## Forked Project Notes
+This project is forked from [here](https://github.com/appbrewery/Quizzler-iOS13). You will not be able to run this app on your phone as a Developer because of the signature mismatch between your apple account vs App Brewery's. 
+
+![image](https://github.com/mrinalini-learning-org/Quizzler-iOS13/assets/9332293/807b1240-bf98-48ba-937c-3438b889c1d0)
+
+
+However, you will be able to successfully run this app on simulators. 
+
 ## Our Goal
 
 The goal of this tutorial is to take you one step further in your journey of becoming an app developer. We are going to introduce you to the holy grail of mobile design patterns: the Model View Controller (MVC) pattern. A design pattern is simply a repeatable and optimised solution to a common software problem and you’ll learn more about this when use in the tutorial.
