@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var trueButton: UIButton!
     @IBOutlet weak var falseButton: UIButton!
+    @IBOutlet weak var scoreLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     
     
@@ -33,6 +34,7 @@ class ViewController: UIViewController {
             updateUI()
         } else {
             updateUIButtonColor(sender, UIColor.red)
+            updateUI()
         }
         
         if (quizBrain.isEndOfQuestions()) {
@@ -49,13 +51,14 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        if (quizBrain.questionWithingIndex()) {
+        if (quizBrain.questionWithinIndex()) {
+            scoreLabel.text = "Score: \(quizBrain.getScore())"
             questionLabel.text = quizBrain.getQuestionText()
         }
     }
     
     func resetGame() {
-        quizBrain.questionNumber = 0
+        quizBrain.resetQuiz()
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
             self.progressBar.progress = 0.0
             self.updateUI()
