@@ -6,9 +6,10 @@
 ## Forked Project Notes
 This project is forked from [here](https://github.com/appbrewery/Quizzler-iOS13). You will not be able to run this app on your phone as a Developer because of the signature mismatch between your apple account vs App Brewery's. 
 
-![image](https://github.com/mrinalini-learning-org/Quizzler-iOS13/assets/9332293/49e32591-9bc3-4dae-8b51-ce72f23e7b40)
+![image](https://github.com/mrinalini-learning-org/Quizzler-iOS13/assets/9332293/807b1240-bf98-48ba-937c-3438b889c1d0)
 
-You will be able to succfully run this app on simulators. 
+
+However, you will be able to successfully run this app on simulators. 
 
 ## Our Goal
 
