@@ -45,7 +45,7 @@ struct QuizBrain {
         return questionNumber < quiz.count
     }
     
-    func getQuestion() -> String {
+    func getQuestionText() -> String {
         return quiz[questionNumber].text
     }
     

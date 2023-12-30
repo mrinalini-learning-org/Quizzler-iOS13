@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
     func updateUI() {
         if (quizBrain.questionWithingIndex()) {
-            questionLabel.text = quizBrain.getQuestion()
+            questionLabel.text = quizBrain.getQuestionText()
         }
     }
     
